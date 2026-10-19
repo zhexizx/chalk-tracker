@@ -1,11 +1,10 @@
 /*
 Copyright © 2026 NAME HERE <EMAIL ADDRESS>
-
 */
 package main
 
-import "chalk-tracker/cmd"
+import "chalk-tracker/internal/cli"
 
 func main() {
-	cmd.Execute()
+	cli.NewRootCommand().Execute()
 }
